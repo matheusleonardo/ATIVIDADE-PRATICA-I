@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  display: flex;
+}
+
+.iconesdoladinho {
+  width: 60px;
+  background: #fff;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.iconesdoladinho .icon {
+  font-size: 24px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.caixas {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.meu-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.meu-perfil img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.meu-perfil h2 {
+  margin-left: -35%;
+  font-size: 18px;
+}
+
+.meu-perfil p {
+  margin-left: -35%;
+  font-size: 14px;
+  color: #555;
+}
+
+.meu-perfil button {
+  padding: 5px 10px;
+  background: rgb(9, 167, 240);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.butao-postar {
+  background: rgb(9, 167, 240);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.postagem-dosparceiros {
+  display: flex;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.postagem-dosparceiros img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postagem-dosparceiros p {
+  margin: 5px 0;
+}
+
+.coracoezinhos-comentarios {
+  font-size: 13px;
+  color: #888;
+}
